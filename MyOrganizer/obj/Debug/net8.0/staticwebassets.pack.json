@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/viktoriyabilyk/RiderProjects/MyOrganizer/MyOrganizer/obj/Debug/net8.0/scopedcss/projectbundle/MyOrganizer.bundle.scp.css",
+      "PackagePath": "staticwebassets/MyOrganizer.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/viktoriyabilyk/RiderProjects/MyOrganizer/MyOrganizer/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/viktoriyabilyk/RiderProjects/MyOrganizer/MyOrganizer/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/viktoriyabilyk/RiderProjects/MyOrganizer/MyOrganizer/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/viktoriyabilyk/RiderProjects/MyOrganizer/MyOrganizer/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MyOrganizer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MyOrganizer.props",
+      "PackagePath": "build\\MyOrganizer.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MyOrganizer.props",
+      "PackagePath": "buildMultiTargeting\\MyOrganizer.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MyOrganizer.props",
+      "PackagePath": "buildTransitive\\MyOrganizer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
