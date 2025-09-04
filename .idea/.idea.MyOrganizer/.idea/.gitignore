@@ -12,5 +12,5 @@
 /dataSources/
 /dataSources.local.xml
 
-.idea/.idea.MyOrganizer/.idea
+*.idea
 *.sln
