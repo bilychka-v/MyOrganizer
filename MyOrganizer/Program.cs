@@ -1,3 +1,5 @@
+using Application.IRepositories;
+using Application.Repositories;
 using Db;
 using Microsoft.EntityFrameworkCore;
 using MyOrganizer.Components;
@@ -10,6 +12,8 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("ConnectBd")));
+
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 
 
 var app = builder.Build();

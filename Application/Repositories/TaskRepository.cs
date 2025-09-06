@@ -1,11 +1,12 @@
 using System.Collections;
+using Application.IRepositories;
 using Db;
 using Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace Application.Repositories;
 
-public class TaskRepository
+public class TaskRepository : ITaskRepository
 {
     private readonly DataContext _context;
 

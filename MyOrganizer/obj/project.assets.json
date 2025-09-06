@@ -969,6 +969,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Db": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Db/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2934,6 +2947,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
     "Db/1.0.0": {
       "type": "project",
       "path": "../Db/Db.csproj",
@@ -2947,6 +2965,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Application >= 1.0.0",
       "DBContext >= 1.0.0",
       "Db >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.3",
@@ -2979,6 +2998,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "/Users/viktoriyabilyk/RiderProjects/MyOrganizer/Application/Application.csproj": {
+              "projectPath": "/Users/viktoriyabilyk/RiderProjects/MyOrganizer/Application/Application.csproj"
+            },
             "/Users/viktoriyabilyk/RiderProjects/MyOrganizer/Db/Db.csproj": {
               "projectPath": "/Users/viktoriyabilyk/RiderProjects/MyOrganizer/Db/Db.csproj"
             }
